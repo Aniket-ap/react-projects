@@ -1,0 +1,138 @@
+* {
+    /* background-color: #2e3035; */
+    color: whitesmoke;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* HEADER */
+  
+  .Header-Background {
+    background-color: #2e3035;
+    background-image: url("./download.png");
+    min-height: 367px;
+    min-width: 1024px;
+    margin-bottom: 5px;
+  }
+  
+  .brand {
+      width:100%;
+      display: inline-block;
+  }
+  
+  .brand h1 {
+    font-family: "Righteous", cursive;
+    margin-left: 5px;
+    letter-spacing: 4px;
+    font-weight: bold;
+  }
+  
+  .Head-Button Button {
+    background-color: #1bb76e;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .Searchbar-form{
+    /* display: inline; */
+    position: absolute;
+    top: 2%;
+    left: 40%;
+    width: auto;
+  }
+  
+  .searchbar-input {
+    background: rgba(255, 255, 255, 0.25);
+    color: #ffffff;
+    border: transparent;
+    border-radius: 3px;
+    font-size: 17px;
+    opacity: 0.8;
+  }
+  
+  .submit-input {
+    background: rgba(255, 255, 255, 0.25);
+    width: 40px;
+    height: 35px;
+    border: none;
+    border-radius: 2px;
+    margin-left: 2px;
+  }
+  
+  .awardLogo{
+    font-size: 2rem;
+    margin-top: 5px;
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  
+  .allignLeft{
+    float: left;
+    margin-top: 5px;
+    margin-left: 3px;
+    display: flex;
+  }
+  
+  .allignRight{
+    float: right;
+    margin-top: 5px;
+    display: flex;
+  }
+  
+  /* Header END */
+  
+  /* Cards */
+  .cards {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #2e3035;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+  }
+  
+  .card-image {
+    margin-top: 5%;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 grey;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .card-image img {
+    width: 100%;
+  }
+  
+  .card-text {
+    padding: 10px;
+  }
+  
+  .card-button {
+    background-color: #2e3035;
+    border: none;
+    font-size: large;
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+  /* Cards End */
+  
+  /* Cards Stats */
+  
+  .card-stats {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #2e3035;
+    padding: 5px;
+  }
+  
+  /* End */
+  
