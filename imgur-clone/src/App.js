@@ -9,8 +9,11 @@ import Card from "./Card";
 const App = () => {
   return (
     <div>
+      <div>
       <Header/>
-      <section className="cards">
+      </div>
+      <section style={{backgroundColor:"#2e3035"}}>
+      <div className="cards" >
         <Card image={faker.random.image()} title={faker.lorem.words()} />
         <Card image={faker.random.image()} title={faker.lorem.words()} />
         <Card image={faker.random.image()} title={faker.lorem.words()} />
@@ -29,6 +32,7 @@ const App = () => {
         <Card image={faker.random.image()} title={faker.lorem.words()} />
         <Card image={faker.random.image()} title={faker.lorem.words()} />
         <Card image={faker.random.image()} title={faker.lorem.words()} />
+      </div>
       </section>
     </div>
   );
