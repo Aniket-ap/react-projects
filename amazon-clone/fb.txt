@@ -1,0 +1,10 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyDTs-hL84r3hW7Xi-oxNZEfvYVP_hivOwg",
+  authDomain: "clone-50a00.firebaseapp.com",
+  databaseURL: "https://clone-50a00.firebaseio.com",
+  projectId: "clone-50a00",
+  storageBucket: "clone-50a00.appspot.com",
+  messagingSenderId: "338511165031",
+  appId: "1:338511165031:web:c15641b620f0a8840306c2",
+  measurementId: "G-FKYT2V08KX"
+};
