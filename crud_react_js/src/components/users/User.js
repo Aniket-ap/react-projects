@@ -8,7 +8,7 @@ const User = () => {
     username: "",
     email: "",
     phone: "",
-    webiste: ""
+    webiste: "",
   });
   const { id } = useParams();
   useEffect(() => {
