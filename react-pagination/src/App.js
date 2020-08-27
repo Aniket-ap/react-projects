@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./styles.css";
 import Pagination from "./components/Pagination";
 
 export default function App() {
